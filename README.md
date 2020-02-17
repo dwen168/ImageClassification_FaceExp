@@ -13,3 +13,15 @@ docker build -t fastai-v3 . && docker run --rm -it -p 5000:5000 fastai-v3
 The guide for production deployment to Render is at https://course.fast.ai/deployment_render.html.
 
 Please use [Render's fast.ai forum thread](https://forums.fast.ai/t/deployment-platform-render/33953) for questions and support.
+
+
+
+# The pre-trained model was built and powered by fastai framework.
+1. download the urls from google images
+2. label and store the data into different folders
+3. define the neural network framework
+4. load the data into framework
+5. train and observe the result
+6. tune the model by adjusting the learning rate, removing the dirty data etc
+7. export the model
+8. publish to web app
