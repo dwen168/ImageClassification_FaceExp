@@ -25,3 +25,8 @@ Please use [Render's fast.ai forum thread](https://forums.fast.ai/t/deployment-p
 6. tune the model by adjusting the learning rate, removing the dirty data etc
 7. export the model
 8. publish to web app
+
+Added: due to the limited the sample data, face recognition works well on the training set, but would be difficult to distinguish the
+slightly differences between the face expression. 
+
+-- change to pet classification
